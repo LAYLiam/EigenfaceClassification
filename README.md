@@ -17,7 +17,7 @@ Here is my flawed understanding of the process (sorry no LaTeX yet):
 8. Then to get the regenerated image it is the mean face Ψ + sum(w1 * e1, w2 * e2, ... wk * ek), where w are the weights and e are the eigenfaces.
 9. Classification can be done by calculating euclidian distances between the images.
 
-So far my data looks a bit odd:
+So far my data looks a bit odd. Looks like Mark Zucc turned into a different person :(:
 | Data set | Eigenfaces | Process | Start, mean and final face |
 -----------|------------|---------|----------------------------|
 |![](https://api.llay.au/eigenfaces/dataset.png)| ![](https://api.llay.au/eigenfaces/eigenfaces.png) |  ![](https://api.llay.au/eigenfaces/weights_applied.png) | ![](https://api.llay.au/eigenfaces/reconstruction.png) |
