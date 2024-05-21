@@ -22,5 +22,5 @@ So far my data looks a bit odd. Looks like Mark Zucc turned into a different per
 -----------|------------|---------|----------------------------|
 |![](https://api.llay.au/eigenfaces/dataset.png)| ![](https://api.llay.au/eigenfaces/eigenfaces.png) |  ![](https://api.llay.au/eigenfaces/weights_applied.png) | ![](https://api.llay.au/eigenfaces/reconstruction.png) |
 
-# But Why?
-It could be due to bad data used. My math needs to be reviewed again also.
+# But Why The Bad Results?
+It could be due to bad data used. For one of the individuals in the sample data, their images are disproportionately more forward facing compared to others. When examining the output data consistently, features of this individual appear visible although the input image to be reconstructed looks nothing of this individual. I presume the issue is that math needs to be reviewed again also.
